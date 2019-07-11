@@ -1,0 +1,8 @@
+.x {
+    border: 1px solid;
+    border-color: gray;
+    padding: 1px;
+    box-shadow: 10px;
+    border-radius: 100%;
+    max-width: 50%
+}

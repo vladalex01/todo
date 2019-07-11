@@ -1,0 +1,85 @@
+.vw3-top .vw3-bottom {
+    position: relative;
+    width: 100%;
+    z-index: 1
+}
+
+.vw3-top {
+    top: 0
+}
+
+.vw3-bottom {
+    bottom: 0;
+}
+
+.vheader {
+    /* color: red; */
+    margin-top: 3%;
+}
+
+/* .v_strong {
+    font-family: "MaisonNeue-Book", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+} */
+
+.main-header {
+    font-size: 18;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    letter-spacing: 0;
+    -webkit-font-smoothing: antialiased;
+    font-family: "MaisonNeue-Book", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+
+.background {
+    background-color: red;
+}
+
+.vred {
+    background-color: red;
+}
+
+button {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.nav_gradient {
+    background: #0F2027;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: aqua
+}
+
+.section_1 {
+    background: #159957;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #155799, #159957);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #155799, #159957);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: center;
+}
+
+.section_2 {
+    background: #C33764;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1D2671, #C33764);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1D2671, #C33764);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+    text-align: justify;
+}
