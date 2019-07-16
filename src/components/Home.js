@@ -28,17 +28,6 @@ class Home extends React.Component {
                     </p>
 
                     <p>
-                        A multistage liquid-fuel expendable launcher, the Saturn V was designed under
-                        the direction of Wernher von Braun at the Marshall Space Flight Center. It was
-                        the largest production model of the Saturn family, with a height of 111 m (363
-                        ft), although larger models were theorized. The super heavy-lift launch
-                        vehicle consisted of liquid-propellant rockets in three stages, the first of
-                        which had a total mass at launch of 2.3 million kilograms (5.1 million
-                        pounds), consisting mostly of its RP-1 fuel and liquid oxygen. As well as
-                        launching Apollo missions, the Saturn V also launched the Skylab space
-                        station. Thirteen rockets were launched from 1967 to 1973, with an almost
-                        perfect launch record – Apollo 6 and Apollo 13 did lose engines, but the
-                        onboard computers were able to compensate.
                     </p>
                 </Content>
             </Article>
