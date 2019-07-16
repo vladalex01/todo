@@ -16,4 +16,42 @@ export default function Article(props) {
     );
 }
 
+export function TopSection(props) {
+    return (
+        <div className="w3-container w3-border-bottom">
+            {props.children}
+        </div>
+    );
+}
+
+export function Title(props) {
+    return (
+        <div className={"title"}>
+            {props.children}
+        </div>
+    );
+}
+export function Author(props) {
+    return (
+        <div className={"author"}>
+            {props.children}
+        </div>
+    );
+}
+export function Date(props) {
+    return (
+        <div className={"date"}>
+            {props.children}
+        </div>
+    );
+}
+
+export function Content(props) {
+    return (
+        <div className={"w3-container content"}>
+            {props.children}
+        </div>
+    );
+}
+
 

@@ -53,11 +53,11 @@ class Navbar extends React.Component {
                         <div class="w3-col m1 s1 w3-center">&nbsp;</div>
                         <div class="w3-col m1 s1 w3-center">&nbsp;</div>
                         <div class="w3-col m1 s1 w3-center">&nbsp;</div>
-                        <div style={{marginTop: '1%'}}>
+                        <div style={{marginTop: '1%', fontWeight: 'bold'}}>
                             <Menu />
                         </div>
                     </div>
-                    <div className="w3-hide-medium w3-hide-small">
+                    <div className="w3-hide-medium w3-hide-small" style={{fontWeight: 'bold'}}>
                         <Link to="/" className="w3-bar-item w3-button w3-col m1 w3-center">Home</Link>
                         <Link to="/" className="w3-bar-item w3-button w3-col m1 w3-center">Article</Link>
                         <Link to="/" className="w3-bar-item w3-button w3-col m1 w3-center">Revista</Link>

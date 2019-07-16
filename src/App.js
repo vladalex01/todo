@@ -10,7 +10,7 @@ import Contact from './components/Contact';
 import About from './components/About';
 import Error from './components/Error';
 import Footer from './template/Footer';
-
+import './template/Adjust.css'
 class App extends React.Component {
 
 	render() {

@@ -1,15 +1,19 @@
-.vw3-top .vw3-bottom {
+.vw3-top {
     position: relative;
     width: 100%;
     z-index: 1
 }
 
-.vw3-top {
-    top: 0
+.footer {
+    position: relative;
+    margin-top: 10%;
+    bottom: 0;
+    width: 100%;
+    /* height: 60px; */
 }
 
-.vw3-bottom {
-    bottom: 0;
+.vw3-top {
+    top: 0
 }
 
 .vheader {
@@ -17,23 +21,59 @@
     margin-top: 3%;
 }
 
-/* .v_strong {
-    font-family: "MaisonNeue-Book", Helvetica, Arial, sans-serif;
-    font-weight: bold;
-} */
-
-.main-header {
-    font-size: 18;
-    vertical-align: baseline;
-    box-sizing: border-box;
-    letter-spacing: 0;
-    -webkit-font-smoothing: antialiased;
-    font-family: "MaisonNeue-Book", Helvetica, Arial, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    text-transform: uppercase;
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    -ms-interpolation-mode: bicubic;
+    /* shape-outside:  */
 }
 
+.content {
+    text-align: justify;
+    display: block;
+    font-size: 1.2em;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.title {
+    text-align: center;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+div {
+    text-align: center;
+    display: block;
+    font-size: 1.02em;
+}
+
+.author {
+    text-align: right;
+    display: block;
+    font-size: 1em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+.date {
+    text-align: left;
+    display: block;
+    font-size: 1em;
+    margin-top: 5%;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 .background {
     background-color: red;
@@ -41,6 +81,10 @@
 
 .vred {
     background-color: red;
+}
+
+div {
+    /* color: red; */
 }
 
 button {
