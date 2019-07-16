@@ -19,12 +19,14 @@ class App extends React.Component {
 			<div>
 				<BrowserRouter>
 					<Navbar />
-					<Switch>
-						<Route exact path="/" component={Home} />
-						<Route path="/contact" component={Contact} />
-						<Route path="/about" component={About} />
-						<Route component={Error} />
-					</Switch>
+					<div className="body">
+						<Switch>
+							<Route exact path="/" component={Home} />
+							<Route path="/contact" component={Contact} />
+							<Route path="/about" component={About} />
+							<Route component={Error} />
+						</Switch>
+					</div>
 					<Footer />
 				</BrowserRouter>
 			</div>

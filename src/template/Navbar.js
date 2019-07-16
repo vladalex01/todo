@@ -47,12 +47,13 @@ class Navbar extends React.Component {
                     <Link to="/" className="w3-bar-item w3-button w3-col w3-center m2 s5"><b>
                         {/* <img src={logo} width="80%"/>*/}LOGO</b></Link>
                     <div class="w3-col m1 w3-center w3-hide-small">&nbsp;</div>
-                    {/* //  Float links to the right. Hide them on small screens */}
+
+                    {/*  Float links to the right. Hide them on small screens */}
                     <div className="w3-hide-large">
                         <div class="w3-col m1 s1 w3-center">&nbsp;</div>
                         <div class="w3-col m1 s1 w3-center">&nbsp;</div>
-                        <div class="w3-col m1 s1 w3-center">&nbsp;</div>
-                        <div class="w3-col m1 s1 w3-center">&nbsp;</div>
+                        {/* <div class="w3-col m1 s1 w3-center">&nbsp;</div>
+                        <div class="w3-col m1 s1 w3-center">&nbsp;</div> */}
                         <div style={{marginTop: '1%', fontWeight: 'bold'}}>
                             <Menu />
                         </div>
