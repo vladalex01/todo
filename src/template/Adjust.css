@@ -1,6 +1,7 @@
 .vw3-top {
     position: relative;
     width: 100%;
+    top: 0;
     z-index: 1
 }
 
@@ -16,10 +17,6 @@
     width: 100%;
 }
 
-.vw3-top {
-    top: 0
-}
-
 .vheader {
     /* color: red; */
     margin-top: 3%;
@@ -33,11 +30,10 @@ img {
     /* shape-outside:  */
 }
 
-
 .content {
-    text-align: justify;
+    text-align: left;
     display: block;
-    font-size: 1.2em;
+    /* font-size: 1.1em; */
     margin-top: 5%;
     margin-bottom: 5%;
 }
@@ -46,8 +42,8 @@ img {
     text-align: center;
     display: block;
     font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
+    /* margin-top: 0.67em;
+    margin-bottom: 0.67em; */
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -63,8 +59,8 @@ div {
     text-align: right;
     display: block;
     font-size: 1em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
+    /* margin-top: 0.67em;
+    margin-bottom: 0.67em; */
     margin-left: 0;
     margin-right: 0;
     font-weight: bold;
@@ -74,22 +70,19 @@ div {
     text-align: left;
     display: block;
     font-size: 1em;
-    margin-top: 5%;
-    margin-bottom: 0.67em;
+    /* margin-top: 5%;
+    margin-bottom: 0.67em; */
     margin-left: 0;
     margin-right: 0;
 }
 
-.background {
-    background-color: red;
-}
-
-.vred {
-    background-color: red;
-}
-
-div {
-    /* color: red; */
+.w3-button:hover {
+    color: #000!important;
+    background: linear-gradient(to right,white, white)!important;
+    /* background: white; */
+    border-bottom:6px solid #ccc!important;
+    border-color: green!important
+    
 }
 
 button {
@@ -102,11 +95,11 @@ button {
 }
 
 .nav_gradient {
-    background: #0F2027;
+    /* background: #0F2027; */
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    /* background: linear-gradient(to right, #2C5364, #203A43, #0F2027); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: aqua
 }

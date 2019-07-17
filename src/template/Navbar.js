@@ -25,7 +25,7 @@ class Navbar extends React.Component {
         return (
 
             /* Layout style: should be here for debugging purposes */
-            <div className="vw3-top main-header">
+            <div className="vw3-top">
                 <div class="w3-row">
                     <div class="w3-col m1 s1 w3-center">&nbsp;</div>
                     <div class="w3-col m1 s1 w3-center">&nbsp;</div>

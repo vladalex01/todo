@@ -18,7 +18,7 @@ export default function Article(props) {
 
 export function TopSection(props) {
     return (
-        <div className="w3-container w3-border-bottom">
+        <div className="w3-container w3-bottombar w3-border-red " style={{marginTop: '5%'}}>
             {props.children}
         </div>
     );
