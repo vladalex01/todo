@@ -19,13 +19,10 @@ import Menu from './Menu';
 
 class Navbar extends React.Component {
     render() {
-        function w3_open() {
-            // document.getElementById("mySidebar").style.display = "block";
-        }
         return (
 
             /* Layout style: should be here for debugging purposes */
-            <div className="vw3-top">
+            <div className="top_bar vw3-top ">
                 <div class="w3-row">
                     <div class="w3-col m1 s1 w3-center">&nbsp;</div>
                     <div class="w3-col m1 s1 w3-center">&nbsp;</div>
@@ -41,7 +38,7 @@ class Navbar extends React.Component {
                     <div class="w3-col m1 s1 w3-center w3-gray">&nbsp;</div>
                 </div>
    
-                <div className="w3-bar w3-white w3-padding w3-card w3-row">
+                <div className="w3-bar w3-padding w3-row">
                     <div class="w3-col m1 w3-center">&nbsp;</div>
                     <div class="w3-col m1 w3-center">&nbsp;</div>
                     <Link to="/" className="w3-bar-item w3-button w3-col w3-center m2 s5"><b>

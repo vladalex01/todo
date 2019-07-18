@@ -11,13 +11,19 @@ import About from './components/About';
 import Error from './components/Error';
 import Footer from './template/Footer';
 import './template/Adjust.css'
+import * as am4core from "@amcharts/amcharts4/core";
+import * as am4charts from "@amcharts/amcharts4/charts";
+import am4themes_animated from "@amcharts/amcharts4/themes/animated";
+
+am4core.useTheme(am4themes_animated);
+
 class App extends React.Component {
 
 	render() {
 		return (
 			// RUTE Catre pagini!
-			<div>
-				<BrowserRouter>
+			<div className="bg center">
+				<BrowserRouter >
 					<Navbar />
 					<div className="body">
 						<Switch>

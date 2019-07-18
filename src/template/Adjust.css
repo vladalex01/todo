@@ -1,11 +1,37 @@
-.vw3-top {
-    position: relative;
-    width: 100%;
-    top: 0;
-    z-index: 1
+.bg {
+    background: white;
+    max-height: 90px;
+    z-index: -1;
 }
 
+.vw3-top {
+    background-color: white;
+    max-width: 1250px;
+    margin: auto;
+    left: 0;
+    position: relative;
+    width: 100%;
+    height: auto;
+    /* max-height: 80px; */
+    top: 0;
+    z-index: 1;
+}
+
+/* @media only screen and (min-width: 1200px) {
+    .vw3-top {
+        padding: 0;
+        border: 0;
+        background-color: lightgreen;
+        background-size: 300px 100px;
+        position: relative;
+        top: 0;
+        z-index: 1
+    }
+  } */
+
 .body {
+    max-width: 1250px;
+    margin: auto;
     position: relative;
     margin-bottom: 5%;
     min-height: 100vh;
