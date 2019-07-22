@@ -2,17 +2,24 @@ import React from 'react';
 import Footer from './Footer'
 import Navbar from './Navbar';
 import Layout from './Layout';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 import './Adjust.css'
 
 export default function Article(props) {
     return (
         <div className={"w3-row "}>
             <div class={"w3-col m2 w3-center"}>&nbsp;</div>
-            <div className={"w3-container w3-col m8 w3-white"}>
+            <div className={"w3-container w3-col w3-white"}>
                 {props.children}
             </div>
             <div class={"w3-col m2 w3-center"}>&nbsp;</div>
         </div>
+    //     <Container maxWidth="md">
+    //     <Typography component="div" style={{ backgroundColor: 'white', height: '100vh' }}>
+    //         {props.children}
+    //     </Typography>
+    //   </Container>
     );
 }
 

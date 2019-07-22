@@ -1,17 +1,15 @@
 import React from 'react';
-import Footer from '../template/Footer'
-import Navbar from '../template/Navbar';
-import Layout from '../template/Layout';
-import Menu from '../template/Menu';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import Typography from '@material-ui/core/Typography';
+import Container from '@material-ui/core/Container';
 
-class Contact extends React.Component {
-    render() {
-        return (
-            <React.Fragment>
-                <h1>Contact</h1>
-            </React.Fragment>
-        );
-    }
+export default function SimpleContainer() {
+  return (
+    <React.Fragment>
+      {/* <CssBaseline /> */}
+      <Container maxWidth="md">
+        <Typography component="div" style={{ backgroundColor: 'white', height: '100vh' }} />
+      </Container>
+    </React.Fragment>
+  );
 }
-
-export default Contact

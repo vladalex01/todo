@@ -39,8 +39,8 @@ class Menu extends React.Component {
 
 function SmallMenu(props) {
     return (
-        <div class="w3-col m12 s12 w3-center" style={{fontWeight: 'bold'}}>
-            <Link to="/" className="w3-bar-item w3-button w3-col m12 s12 w3-center">Home</Link>
+        <div class="w3-col sth m12 s12 w3-center w3-padding" style={{fontWeight: 'bold'}}>
+            <Link to="/" className=" w3-bar-item w3-button w3-col m12 s12 w3-center">Home</Link>
             <Link to="/" className="w3-bar-item w3-button w3-col m12 s12 w3-center">Article</Link>
             <Link to="/" className="w3-bar-item w3-button w3-col m12 s12 w3-center">Revista</Link>
             <Link to="/about" className="w3-bar-item w3-button w3-col m12 s12 w3-center">About</Link>

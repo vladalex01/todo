@@ -1,18 +1,23 @@
 .bg {
     background: white;
-    max-height: 90px;
+    max-height: 70px;
     z-index: -1;
 }
 
+.sth {
+    background: white;
+    /* max-height: 70px; */
+    z-index: -1;
+}
 .vw3-top {
-    background-color: white;
+    /* background-color: white; */
     max-width: 1250px;
     margin: auto;
     left: 0;
     position: relative;
     width: 100%;
     height: auto;
-    /* max-height: 80px; */
+    max-height: 80px;
     top: 0;
     z-index: 1;
 }
@@ -103,12 +108,8 @@ div {
 }
 
 .w3-button:hover {
-    color: #000!important;
-    background: linear-gradient(to right,white, white)!important;
-    /* background: white; */
-    border-bottom:6px solid #ccc!important;
-    border-color: green!important
-    
+    color: white!important; 
+    background: linear-gradient(to right,black, black)!important;
 }
 
 button {
